@@ -8,46 +8,56 @@
     <title>Sign-up form</title>
 </head>
 <body>
-    <nav>
-        <p>Already have an Intuit account?</p>
-        <a href="">I forgot my Uset ID or password</a>
+    <header>
+        <div>
+            <p>Already have an Intuit account?</p>
+            <a href="">I forgot my Uset ID or password</a>
+        </div>
         <button>Sign in</button>
-            </nav>
+    </header>
     <main>
         <div>
                 <a href="">
-                    <img src="http://i.imgur.com/jnYFslI.png" />
+                    <img src="http://i.imgur.com/jnYFslI.png" alt="intuit_logo"/>
                   </a>
         </div>
-        <form action="" method="post">
-            <h1>Create an Intuit account</h1>
-            <h2>One account for everything Intuit, including Mint.</h2>
-            <a href="">Learn more</a>
-            <label>
-                Email address 
-                <input type="email" name="email" required>
-            </label>
-            <label>
-                Phone (recommended)
-                <input type="tel" name="phone" required>
-                <p>Standard call, messaging or data rates may apply.</p>
-            </label>
-            <label>
-                password
-                <input type="password" name="password" required>
-            </label>
-            <button>Create Account</button>
-            <p>By clicking Create account, you agree to our
-            <span><a href="">Terms</a></span> and have read and acknowledge our <span><a href="">Privacy Statement.</a></span>
-        </p>
+        <form action="/login" method="post">
+            <div class="center-text" id="form-header">
+                <h3>Create an Intuit account</h3>
                 <div>
-                    <p>Invisible reCAPTCHA by Google <span><a href="">Privacy Policy</a></span> and <span><a href="">Terms of Use</a></span>.</p>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <a href="">Learn more</a>
                 </div>
+                
+            </div>
+            
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" required>
+        
+            <label for="phone">Phone (recommended)</label>
+            <input type="tel" name="phone" id="phone" required>
+            <p id="phone-msg">Standard call, messaging or data rates may apply.</p>
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <button>Create Account</button>
 
-
+            <p class="center-text" id="acceptance">By clicking Create account, you agree to our <span><a href="">Terms</a></span> and have read and acknowledge our <span><a href="">Privacy Statement.</a></span>
+        </p>
+            <div id="form-footer">
+                <p class="center-text">Invisible reCAPTCHA by Google <span><a href="">Privacy Policy</a></span> and <span><a href="">Terms of Use</a></span>.</p>
+            </div>
         </form>
         
     </main>
-    <footer>footer</footer>
+    <footer>
+        <nav class="center-text">
+            <a href="">Legal</a>
+            <a href="">Privacy</a>
+            <a href="">Security</a>
+        </nav>
+        <p class="center-text">&copy; 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+        <p class="center-text">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </footer>
 </body>
 </html>
