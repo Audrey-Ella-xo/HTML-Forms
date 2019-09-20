@@ -112,3 +112,15 @@ footer nav a {
 footer a:hover {
   text-decoration: underline;
 }
+
+#links {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+  color: #4c4c4c;
+  vertical-align: middle;
+  margin: 5px;
+}
