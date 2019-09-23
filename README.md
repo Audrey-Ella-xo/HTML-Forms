@@ -6,7 +6,7 @@ A project to create a replica of mint.com's sign up page
 
 #### [Assignment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms)
 
-#### [Project Live Version](https://Audrey-Ella-xo.github.io/HTML-Forms)
+#### [Project Live Version](https://audrey-ella-xo.github.io/HTML-Forms/)
 
 #### Screenshot
 ![Screenshot](images/signup-form.png)
