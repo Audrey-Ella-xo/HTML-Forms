@@ -9,7 +9,7 @@ A project to create a replica of mint.com's sign up page
 #### [Project Live Version](https://Audrey-Ella-xo.github.io/HTML-Forms)
 
 #### Screenshot
-![Screenshot](images\signup-form.png)
+![Screenshot](images/signup-form.png)
 
 #### Contributors:
  * [Ramesh Naidu](https://github.com/rna)
